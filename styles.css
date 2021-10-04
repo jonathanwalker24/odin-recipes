@@ -6,6 +6,26 @@
        padding: auto;
        margin: 60px;
    } 
+   @-ms-viewport {
+       width: device-width ;
+       zoom: 1.0 ;
+   }
+
+   @media screen and (max-width: 320px) {
+    #somethingorother {
+      width: 120px ;
+    }
+  }
+  @media screen and (min-width: 321px) and (max-width: 480px) {
+     #somethingorother {
+      width: 320px ;
+    }
+  }
+  @media screen and (min-width: 481px) {
+    #somethingorother {
+      width: 480px ;
+    }
+
    ul {
     list-style-type: none;
     margin: 0;
