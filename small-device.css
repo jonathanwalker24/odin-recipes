@@ -25,7 +25,7 @@ ul {
 
  .title {
  background-color: rgb(67, 156, 67); 
- font-size: 200%;
+ font-size: 5vw;
  text-align: center;
  border-radius: 10px;
  padding: auto; 
@@ -45,7 +45,7 @@ ul {
  margin-right: auto;
  width: 75%;
  height: 75%;
- font-size:200%;
+ font-size: 5vw;
  border-radius: 25%;
  text-align: center;
  
