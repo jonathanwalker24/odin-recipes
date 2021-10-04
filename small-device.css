@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(204, 199, 184);
+    width: auto;
+    border: 15px solid green;
+    padding: auto;
+    margin: 60px;
+} 
+@-ms-viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
+@media screen and (max-width: 320px) {
+ #somethingorother {
+   width: 120px ;
+ }
+}
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  #somethingorother {
+   width: 320px ;
+ }
+}
+@media screen and (min-width: 481px) {
+ #somethingorother {
+   width: 480px ;
+ }
+
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+
+ .title {
+ background-color: rgb(67, 156, 67); 
+ font-size: 100%;
+ text-align: center;
+ border-radius: 25px;
+ padding: 20px; 
+ width: 50%;
+ height: 80px;
+ margin-left: auto;
+ margin-right: auto;
+ }
+ .stuff { 
+ font-size: 200%; 
+ text-align: center;
+ }
+ .list {
+ background-image: url("images/italianherb.jpeg");
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+ height: 600px;
+ font-size: 300%;
+ border-radius: 25%;
+ text-align: center;
+ 
+ }
+ .center {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+     border-radius: 25%;
+ }
