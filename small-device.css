@@ -3,7 +3,7 @@ body {
     width: auto;
     border: 10px solid green;
     padding: auto;
-    margin: 10px;
+    margin: auto;
 } 
 @-ms-viewport {
     width: device-width ;
