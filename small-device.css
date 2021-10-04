@@ -25,10 +25,10 @@ ul {
 
  .title {
  background-color: rgb(67, 156, 67); 
- font-size: 130%;
+ font-size: 200%;
  text-align: center;
  border-radius: 10px;
- padding: 10px; 
+ padding: auto; 
  width: 75%;
  height: 80px;
  margin-left: auto;
