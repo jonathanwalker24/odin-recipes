@@ -1,7 +1,7 @@
 body {
-    background-color: rgb(204, 199, 184);
+    background-color: rgb(183, 236, 228);
     width: auto;
-    border: 10px solid green;
+    border: 10px solid rgb(137, 181, 238);
     padding: auto;
     margin: auto;
 } 
@@ -24,7 +24,7 @@ ul {
 }
 
  .title {
- background-color: rgb(67, 156, 67); 
+ background-color: rgb(214, 247, 242); 
  font-size: 5vw;
  text-align: center;
  border-radius: 10px;

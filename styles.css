@@ -1,8 +1,8 @@
 
   body {
-       background-color: rgb(204, 199, 184);
+       background-color: rgb(133, 221, 224);
        width: auto;
-       border: 15px solid green;
+       border: 15px solid rgb(137, 181, 238);
        padding: auto;
        margin: 60px;
    } 
@@ -14,7 +14,7 @@
    
    @media only screen and (max-width: 480px), 
    only screen and (max-device-width: 480px) {
-
+   }
 }
    ul {
     list-style-type: none;
@@ -23,7 +23,7 @@
 }
    
     .title {
-    background-color: rgb(67, 156, 67); 
+    background-color: rgb(214, 247, 242); 
     font-size: 5vw;
     text-align: center;
     border-radius: 25px;
