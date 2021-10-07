@@ -3,7 +3,7 @@
        background-color: rgb(133, 221, 224);
        width: auto;
        border: 15px solid rgb(137, 181, 238);
-       padding: auto;
+       padding: 40px;
        margin: 60px;
    } 
    @-ms-viewport {
@@ -56,3 +56,16 @@
         width: 30%;
         border-radius: 25%;
     }
+    .flex-container {
+        display: flex;
+        
+    }
+    .flex-container h3 a {
+       
+        height: 100px;
+        width: 400px;
+        flex: 1 1 auto;
+        margin: auto;
+    }
+
+
