@@ -1,10 +1,11 @@
 
   body {
-       background-color: rgb(133, 221, 224);
+       background-color: rgb(250, 247, 204);
        width: auto;
-       border: 15px solid rgb(137, 181, 238);
+       border: 15px solid rgb(241, 126, 80);
        padding: 40px;
        margin: 60px;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    } 
    @-ms-viewport {
        width: device-width ;
@@ -23,7 +24,7 @@
 }
    
     .title {
-    background-color: rgb(214, 247, 242); 
+    background-color: rgb(235, 157, 41); 
     font-size: 5vw;
     text-align: center;
     border-radius: 25px;
@@ -45,7 +46,7 @@
     width: 50%;
     height: 600px;
     font-size: 300%;
-    border-radius: 25%;
+    
     text-align: center;
     
     }
@@ -54,18 +55,28 @@
         margin-left: auto;
         margin-right: auto;
         width: 30%;
-        border-radius: 25%;
+        border: 10px solid white;
     }
     .flex-container {
+    
+        padding: 16px;
+        gap: 10ox;
         display: flex;
         
     }
-    .flex-container h3 a {
+    .flex-container div {
        
-        height: 100px;
+        height: 400px;
         width: 400px;
-        flex: 1 1 auto;
+        flex: 1;
         margin: auto;
+        border-top: 4px solid black;
+
     }
+
+    h3 { 
+     text-align: center;   
+    }
+   
 
 
